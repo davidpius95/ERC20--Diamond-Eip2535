@@ -1,0 +1,524 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "NotDiamondOwner",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "owner_",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5061020a806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80638da5cb5b1461003b578063f2fde38b1461005f575b600080fd5b610043610074565b6040516001600160a01b03909116815260200160405180910390f35b61007261006d3660046101a4565b6100ac565b005b60006100a77fc8fcad8db84d3cc18b4c41d551ea0ee66dd599cde068d998e57d5e09332c1320546001600160a01b031690565b905090565b6100b46100c0565b6100bd8161010f565b50565b7fc8fcad8db84d3cc18b4c41d551ea0ee66dd599cde068d998e57d5e09332c131c600401546001600160a01b0316331461010d57604051630305808160e41b815260040160405180910390fd5b565b7fc8fcad8db84d3cc18b4c41d551ea0ee66dd599cde068d998e57d5e09332c132080546001600160a01b031981166001600160a01b038481169182179093556040517fc8fcad8db84d3cc18b4c41d551ea0ee66dd599cde068d998e57d5e09332c131c939092169182907f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e090600090a3505050565b6000602082840312156101b657600080fd5b81356001600160a01b03811681146101cd57600080fd5b939250505056fea26469706673582212202d783bf19196f08157352b74b474ba98e8fe737cb4e618b53fe35871c84621af64736f6c634300080d0033",
+    "sourceMap": "169:330:4:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80638da5cb5b1461003b578063f2fde38b1461005f575b600080fd5b610043610074565b6040516001600160a01b03909116815260200160405180910390f35b61007261006d3660046101a4565b6100ac565b005b60006100a77fc8fcad8db84d3cc18b4c41d551ea0ee66dd599cde068d998e57d5e09332c1320546001600160a01b031690565b905090565b6100b46100c0565b6100bd8161010f565b50565b7fc8fcad8db84d3cc18b4c41d551ea0ee66dd599cde068d998e57d5e09332c131c600401546001600160a01b0316331461010d57604051630305808160e41b815260040160405180910390fd5b565b7fc8fcad8db84d3cc18b4c41d551ea0ee66dd599cde068d998e57d5e09332c132080546001600160a01b031981166001600160a01b038481169182179093556040517fc8fcad8db84d3cc18b4c41d551ea0ee66dd599cde068d998e57d5e09332c131c939092169182907f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e090600090a3505050565b6000602082840312156101b657600080fd5b81356001600160a01b03811681146101cd57600080fd5b939250505056fea26469706673582212202d783bf19196f08157352b74b474ba98e8fe737cb4e618b53fe35871c84621af64736f6c634300080d0033",
+    "sourceMap": "169:330:4:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;380:117;;;:::i;:::-;;;-1:-1:-1;;;;;178:32:19;;;160:51;;148:2;133:18;380:117:4;;;;;;;210:164;;;;;;:::i;:::-;;:::i;:::-;;380:117;429:14;464:26;2666:30:9;;-1:-1:-1;;;;;2666:30:9;;2567:136;464:26:4;455:35;;380:117;:::o;210:164::-;284:35;:33;:35::i;:::-;329:38;357:9;329:27;:38::i;:::-;210:164;:::o;2709:139:9:-;938:45;2785:30;;;-1:-1:-1;;;;;2785:30:9;2771:10;:44;2767:74;;2824:17;;-1:-1:-1;;;2824:17:9;;;;;;;;;;;2767:74;2709:139::o;2297:264::-;2439:16;;;-1:-1:-1;;;;;;2465:28:9;;-1:-1:-1;;;;;2465:28:9;;;;;;;;;2508:46;;938:45;;2439:16;;;;;;2508:46;;2361:25;;2508:46;2351:210;;2297:264;:::o;222:286:19:-;281:6;334:2;322:9;313:7;309:23;305:32;302:52;;;350:1;347;340:12;302:52;376:23;;-1:-1:-1;;;;;428:31:19;;418:42;;408:70;;474:1;471;464:12;408:70;497:5;222:286;-1:-1:-1;;;222:286:19:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "owner()": "8da5cb5b",
+    "transferOwnership(address)": "f2fde38b"
+  },
+  "ast": {
+    "absolutePath": "/Users/user/Downloads/Blockchain/ERC20--Diamond-Eip2535/contracts/facets/OwnershipFacet.sol",
+    "id": 975,
+    "exportedSymbols": {
+      "IERC173": [
+        1087
+      ],
+      "LibDiamond": [
+        1953
+      ],
+      "OwnershipFacet": [
+        974
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:468:4",
+    "nodes": [
+      {
+        "id": 936,
+        "nodeType": "PragmaDirective",
+        "src": "32:23:4",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 938,
+        "nodeType": "ImportDirective",
+        "src": "57:57:4",
+        "absolutePath": "/Users/user/Downloads/Blockchain/ERC20--Diamond-Eip2535/contracts/libraries/LibDiamond.sol",
+        "file": "../libraries/LibDiamond.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 975,
+        "sourceUnit": 1954,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 937,
+              "name": "LibDiamond",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 1953,
+              "src": "66:10:4",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 940,
+        "nodeType": "ImportDirective",
+        "src": "115:52:4",
+        "absolutePath": "/Users/user/Downloads/Blockchain/ERC20--Diamond-Eip2535/contracts/interfaces/IERC173.sol",
+        "file": "../interfaces/IERC173.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 975,
+        "sourceUnit": 1088,
+        "symbolAliases": [
+          {
+            "foreign": {
+              "id": 939,
+              "name": "IERC173",
+              "nodeType": "Identifier",
+              "overloadedDeclarations": [],
+              "referencedDeclaration": 1087,
+              "src": "124:7:4",
+              "typeDescriptions": {}
+            },
+            "nameLocation": "-1:-1:-1"
+          }
+        ],
+        "unitAlias": ""
+      },
+      {
+        "id": 974,
+        "nodeType": "ContractDefinition",
+        "src": "169:330:4",
+        "nodes": [
+          {
+            "id": 960,
+            "nodeType": "FunctionDefinition",
+            "src": "210:164:4",
+            "body": {
+              "id": 959,
+              "nodeType": "Block",
+              "src": "274:100:4",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 948,
+                        "name": "LibDiamond",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1953,
+                        "src": "284:10:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_LibDiamond_$1953_$",
+                          "typeString": "type(library LibDiamond)"
+                        }
+                      },
+                      "id": 950,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "enforceIsContractOwner",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1233,
+                      "src": "284:33:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$__$returns$__$",
+                        "typeString": "function () view"
+                      }
+                    },
+                    "id": 951,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "284:35:4",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 952,
+                  "nodeType": "ExpressionStatement",
+                  "src": "284:35:4"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 956,
+                        "name": "_newOwner",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 944,
+                        "src": "357:9:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 953,
+                        "name": "LibDiamond",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1953,
+                        "src": "329:10:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_LibDiamond_$1953_$",
+                          "typeString": "type(library LibDiamond)"
+                        }
+                      },
+                      "id": 955,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "setContractOwner",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1207,
+                      "src": "329:27:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_address_$returns$__$",
+                        "typeString": "function (address)"
+                      }
+                    },
+                    "id": 957,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "329:38:4",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 958,
+                  "nodeType": "ExpressionStatement",
+                  "src": "329:38:4"
+                }
+              ]
+            },
+            "baseFunctions": [
+              1086
+            ],
+            "functionSelector": "f2fde38b",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "transferOwnership",
+            "nameLocation": "219:17:4",
+            "overrides": {
+              "id": 946,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "265:8:4"
+            },
+            "parameters": {
+              "id": 945,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 944,
+                  "mutability": "mutable",
+                  "name": "_newOwner",
+                  "nameLocation": "245:9:4",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 960,
+                  "src": "237:17:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 943,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "237:7:4",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "236:19:4"
+            },
+            "returnParameters": {
+              "id": 947,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "274:0:4"
+            },
+            "scope": 974,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 973,
+            "nodeType": "FunctionDefinition",
+            "src": "380:117:4",
+            "body": {
+              "id": 972,
+              "nodeType": "Block",
+              "src": "445:52:4",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 970,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 966,
+                      "name": "owner_",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 964,
+                      "src": "455:6:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "expression": {
+                          "id": 967,
+                          "name": "LibDiamond",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1953,
+                          "src": "464:10:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_LibDiamond_$1953_$",
+                            "typeString": "type(library LibDiamond)"
+                          }
+                        },
+                        "id": 968,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "contractOwner",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 1219,
+                        "src": "464:24:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
+                          "typeString": "function () view returns (address)"
+                        }
+                      },
+                      "id": 969,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "464:26:4",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "455:35:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 971,
+                  "nodeType": "ExpressionStatement",
+                  "src": "455:35:4"
+                }
+              ]
+            },
+            "baseFunctions": [
+              1080
+            ],
+            "functionSelector": "8da5cb5b",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "owner",
+            "nameLocation": "389:5:4",
+            "overrides": {
+              "id": 962,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "406:8:4"
+            },
+            "parameters": {
+              "id": 961,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "394:2:4"
+            },
+            "returnParameters": {
+              "id": 965,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 964,
+                  "mutability": "mutable",
+                  "name": "owner_",
+                  "nameLocation": "437:6:4",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 973,
+                  "src": "429:14:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 963,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "429:7:4",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "428:16:4"
+            },
+            "scope": 974,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 941,
+              "name": "IERC173",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 1087,
+              "src": "196:7:4"
+            },
+            "id": 942,
+            "nodeType": "InheritanceSpecifier",
+            "src": "196:7:4"
+          }
+        ],
+        "canonicalName": "OwnershipFacet",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          974,
+          1087
+        ],
+        "name": "OwnershipFacet",
+        "nameLocation": "178:14:4",
+        "scope": 975,
+        "usedErrors": [
+          1095
+        ]
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 4
+}
