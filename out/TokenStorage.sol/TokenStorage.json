@@ -9,12 +9,12 @@
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "33:201:10",
+    "src": "33:203:10",
     "nodes": [
       {
         "id": 1971,
         "nodeType": "StructDefinition",
-        "src": "33:201:10",
+        "src": "33:203:10",
         "canonicalName": "TokenStorage",
         "members": [
           {
@@ -22,10 +22,10 @@
             "id": 1958,
             "mutability": "mutable",
             "name": "_balances",
-            "nameLocation": "86:9:10",
+            "nameLocation": "88:9:10",
             "nodeType": "VariableDeclaration",
             "scope": 1971,
-            "src": "57:38:10",
+            "src": "59:38:10",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -38,14 +38,14 @@
                 "id": 1955,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "65:7:10",
+                "src": "67:7:10",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "57:27:10",
+              "src": "59:27:10",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                 "typeString": "mapping(address => uint256)"
@@ -54,7 +54,7 @@
                 "id": 1956,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
-                "src": "76:7:10",
+                "src": "78:7:10",
                 "typeDescriptions": {
                   "typeIdentifier": "t_uint256",
                   "typeString": "uint256"
@@ -68,10 +68,10 @@
             "id": 1964,
             "mutability": "mutable",
             "name": "_allowances",
-            "nameLocation": "151:11:10",
+            "nameLocation": "153:11:10",
             "nodeType": "VariableDeclaration",
             "scope": 1971,
-            "src": "102:60:10",
+            "src": "104:60:10",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -84,14 +84,14 @@
                 "id": 1959,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "110:7:10",
+                "src": "112:7:10",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "102:47:10",
+              "src": "104:47:10",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_address_$_t_uint256_$_$",
                 "typeString": "mapping(address => mapping(address => uint256))"
@@ -102,14 +102,14 @@
                   "id": 1960,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "129:7:10",
+                  "src": "131:7:10",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
                     "typeString": "address"
                   }
                 },
                 "nodeType": "Mapping",
-                "src": "121:27:10",
+                "src": "123:27:10",
                 "typeDescriptions": {
                   "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                   "typeString": "mapping(address => uint256)"
@@ -118,7 +118,7 @@
                   "id": 1961,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "140:7:10",
+                  "src": "142:7:10",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -133,10 +133,10 @@
             "id": 1966,
             "mutability": "mutable",
             "name": "_totalSupply",
-            "nameLocation": "178:12:10",
+            "nameLocation": "180:12:10",
             "nodeType": "VariableDeclaration",
             "scope": 1971,
-            "src": "169:21:10",
+            "src": "171:21:10",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -147,7 +147,7 @@
               "id": 1965,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "169:7:10",
+              "src": "171:7:10",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -160,10 +160,10 @@
             "id": 1968,
             "mutability": "mutable",
             "name": "_name",
-            "nameLocation": "205:5:10",
+            "nameLocation": "207:5:10",
             "nodeType": "VariableDeclaration",
             "scope": 1971,
-            "src": "197:13:10",
+            "src": "199:13:10",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -174,7 +174,7 @@
               "id": 1967,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "197:6:10",
+              "src": "199:6:10",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string"
@@ -187,10 +187,10 @@
             "id": 1970,
             "mutability": "mutable",
             "name": "_symbol",
-            "nameLocation": "224:7:10",
+            "nameLocation": "226:7:10",
             "nodeType": "VariableDeclaration",
             "scope": 1971,
-            "src": "216:15:10",
+            "src": "218:15:10",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -201,7 +201,7 @@
               "id": 1969,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "216:6:10",
+              "src": "218:6:10",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string"
