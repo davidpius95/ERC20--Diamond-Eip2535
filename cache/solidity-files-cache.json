@@ -400,8 +400,8 @@
       }
     },
     "/Users/user/Downloads/Blockchain/ERC20--Diamond-Eip2535/contracts/libraries/TokenStorage.sol": {
-      "lastModificationDate": 1655018882910,
-      "contentHash": "0d8ff67a592578ad1f048d50f0145903",
+      "lastModificationDate": 1655163137156,
+      "contentHash": "08e000e87e4cfbfcab228a2c22a9f681",
       "sourceName": "contracts/libraries/TokenStorage.sol",
       "solcConfig": {
         "settings": {
@@ -721,8 +721,8 @@
       }
     },
     "/Users/user/Downloads/Blockchain/ERC20--Diamond-Eip2535/test/deployDiamond.t.sol": {
-      "lastModificationDate": 1655019660341,
-      "contentHash": "f56d5eb611c3bd0500d9564e58188fbc",
+      "lastModificationDate": 1655171033379,
+      "contentHash": "d7cbc76c97679996bcd86d075303bd8b",
       "sourceName": "test/deployDiamond.t.sol",
       "solcConfig": {
         "settings": {

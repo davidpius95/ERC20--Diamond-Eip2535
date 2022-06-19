@@ -17,14 +17,14 @@ contract DiamondDeployer is Test, IDiamondCut {
     DiamondLoupeFacet dLoupe;
     OwnershipFacet ownerF;
 	ERC20 erc20;
-	string Name = "David Pius";
-	string Symbol = "DVP";
+	// string name = "David Pius";
+	// string symbol = "DVP";
 
 
     function testDeployDiamond() public {
         //deploy facets
         dCutFacet = new DiamondCutFacet();
-        diamond = new Diamond(address(this), address(dCutFacet), Name, Symbol);
+        diamond = new Diamond(address(this), address(dCutFacet), "David Pius", "DVP");
         dLoupe = new DiamondLoupeFacet();
         ownerF = new OwnershipFacet();
 		erc20 = new ERC20();
@@ -50,7 +50,7 @@ contract DiamondDeployer is Test, IDiamondCut {
             })
 
         );
-		 cut[2] = (
+		cut[2] = (
             FacetCut({
                 facetAddress: address(erc20),
                 action: FacetCutAction.Add,
